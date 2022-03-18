@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Create a new product</h1>
+    <form method="POST" asp-action="Create" asp-controller="Products" enctype="multipart/form-data">
+        <div>
+            <label for="id">Id: </label>
+            <input name="id" type="text" />
+        </div>
+        <div>
+            <label for="name">Name: </label>
+            <input name="name" type="text" />
+        </div>
+        <div>
+            <label for="price">Price: </label>
+            <input name="price" type="text" />
+        </div>
+        <input type="submit" value="Create"/>
+    </form>
+</div>

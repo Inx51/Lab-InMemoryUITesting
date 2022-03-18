@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "BjCRFmwbFohhMvhxsYLcItqMAgqmdrmAv1E/0BXMtaQ=",
+  "Source": "Web",
+  "BasePath": "_content/Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web\\wwwroot",
+      "Source": "Web",
+      "ContentRoot": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.styles.css",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "Web.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.styles.css"
+    },
+    {
+      "Identity": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.bundle.scp.css",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "Web.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.bundle.scp.css"
+    }
+  ]
+}
