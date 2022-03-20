@@ -4,6 +4,67 @@
     "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web.UITest\\Web.UITest.csproj": {}
   },
   "projects": {
+    "D:\\Projects\\Lab-InMemoryUITesting\\src\\Tstr\\Tstr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Tstr\\Tstr.csproj",
+        "projectName": "Tstr",
+        "projectPath": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Tstr\\Tstr.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Tstr\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web.UITest\\Web.UITest.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,6 +87,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Projects\\Lab-InMemoryUITesting\\src\\Tstr\\Tstr.csproj": {
+                "projectPath": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Tstr\\Tstr.csproj"
+              },
               "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\Web.csproj": {
                 "projectPath": "D:\\Projects\\Lab-InMemoryUITesting\\src\\Web\\Web.csproj"
               }
@@ -65,6 +129,22 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
+            },
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
             },
             "coverlet.collector": {
               "target": "Package",
